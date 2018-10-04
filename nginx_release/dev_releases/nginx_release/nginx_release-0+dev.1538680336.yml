@@ -1,0 +1,15 @@
+name: nginx_release
+version: 0+dev.1538680336
+commit_hash: 7ddd00a
+uncommitted_changes: false
+jobs:
+- name: nginx
+  version: 811600a562b61ee45fbe19404546fb6760686a34
+  fingerprint: 811600a562b61ee45fbe19404546fb6760686a34
+  sha1: 235714e137d85a09ce45d5fdfd405986f4f2f664
+packages:
+- name: nginx
+  version: 61c27e52348e4171dfdc46e52d105a9c532458ef
+  fingerprint: 61c27e52348e4171dfdc46e52d105a9c532458ef
+  sha1: 362e533d91913d524ab71ae62c75fda1f387c563
+  dependencies: []
