@@ -18,4 +18,4 @@ bosh alias-env --ca-cert training-bosh.pem -e ${BOSH_DIRECTOR} training-bosh
 
 bosh login
 
-bosh upload-release releases/release.gz
+bosh upload-release releases/release.tgz
